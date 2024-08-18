@@ -1,6 +1,6 @@
 <?php
 
-namespace Narsil\Legals;
+namespace Narsil\Contacts;
 
 #region USE
 
