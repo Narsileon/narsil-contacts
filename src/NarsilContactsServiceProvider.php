@@ -61,6 +61,7 @@ final class NarsilContactsServiceProvider extends ServiceProvider
     private function bootTranslations(): void
     {
         $this->loadJsonTranslationsFrom(__DIR__ . '/../lang', 'contacts');
+        $this->loadTranslationsFrom(__DIR__ . '/../lang', 'contacts');
     }
 
     #endregion
