@@ -30,11 +30,11 @@ final class AddressScope implements Scope
     public function apply(Builder $builder, Model $model): void
     {
         $sql = 'CONCAT(';
-        $sql .= Address::STREET;
+        $sql .= Address::ADDRESS_LINE_1;
         $sql .= ",' ',";
-        $sql .= Address::HOUSE_NUMBER;
+        $sql .= Address::ADDRESS_LINE_2;
         $sql .= ",', ',";
-        $sql .= Address::ZIPCODE;
+        $sql .= Address::POSTAL_CODE;
         $sql .= ",' ',";
         $sql .= Address::CITY;
         $sql .= ",', ',";

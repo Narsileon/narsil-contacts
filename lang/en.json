@@ -1,11 +1,6 @@
 {
 	"Address": "Address",
 	"Addresses": "Addresses",
-	"City": "City",
-	"Country": "Country",
-	"House number": "House number",
 	"Phone number": "Phone number",
-	"Phone numbers": "Phone numbers",
-	"Postal code": "Postal code",
-	"Street": "Street"
+	"Phone numbers": "Phone numbers"
 }

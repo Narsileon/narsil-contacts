@@ -41,6 +41,14 @@ class Address extends Model
     /**
      * @var string
      */
+    final public const ADDRESS_LINE_1 = 'address_line_1';
+    /**
+     * @var string
+     */
+    final public const ADDRESS_LINE_2 = 'address_line_2';
+    /**
+     * @var string
+     */
     final public const CITY = 'city';
     /**
      * @var string
@@ -57,11 +65,11 @@ class Address extends Model
     /**
      * @var string
      */
-    final public const STREET = 'street';
+    final public const POSTAL_CODE = 'postal_code';
     /**
      * @var string
      */
-    final public const ZIPCODE = 'zipcode';
+    final public const STREET = 'street';
 
     /**
      * @var string

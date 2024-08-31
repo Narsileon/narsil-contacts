@@ -1,11 +1,6 @@
 {
 	"Address": "Adresse",
 	"Addresses": "Adressen",
-	"City": "Stadt",
-	"Country": "Land",
-	"House number": "Hausnummer",
 	"Phone number": "Telefonnummer",
-	"Phone numbers": "Telefonnummern",
-	"Postal code": "Postleitzahl",
-	"Street": "Straße"
+	"Phone numbers": "Telefonnummern"
 }

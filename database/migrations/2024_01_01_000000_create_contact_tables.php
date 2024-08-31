@@ -59,15 +59,15 @@ return new class extends Migration
             $table
                 ->id(Address::ID);
             $table
-                ->string(Address::COUNTRY);
+                ->string(Address::ADDRESS_LINE_1);
+            $table
+                ->string(Address::ADDRESS_LINE_2);
+            $table
+                ->string(Address::POSTAL_CODE);
             $table
                 ->string(Address::CITY);
             $table
-                ->string(Address::ZIPCODE);
-            $table
-                ->string(Address::STREET);
-            $table
-                ->string(Address::HOUSE_NUMBER);
+                ->string(Address::COUNTRY);
             $table
                 ->timestamps();
         });
